@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="res" id="res">
+                0
+            </div>
+            <div class="firstRow">
+                <button class="grayBtn" onclick="readButton('clear')">AC</button>
+                <button class="grayBtn" onclick="readButton('negate')">+/-</button>
+                <button class="grayBtn" onclick="readButton('percentage')">%</button>
+                <button class="orangeBtn" onclick="readButton('divide')">÷</button>
+            </div>
+            <div class="secondRow">
+                <button class="blackBtn" onclick="readButton('7')">7</button>
+                <button class="blackBtn" onclick="readButton('8')">8</button>
+                <button class="blackBtn" onclick="readButton('9')">9</button>
+                <button class="orangeBtn" onclick="readButton('multiply')">x</button>
+            </div>
+            <div class="thirdRow">
+                <button class="blackBtn" onclick="readButton('4')">4</button>
+                <button class="blackBtn" onclick="readButton('5')">5</button>
+                <button class="blackBtn" onclick="readButton('6')">6</button>
+                <button class="orangeBtn" onclick="readButton('minus')">-</button>
+            </div>
+            <div class="fourthRow">
+                <button class="blackBtn" onclick="readButton('1')">1</button>
+                <button class="blackBtn" onclick="readButton('2')" >2</button>
+                <button class="blackBtn" onclick="readButton('3')" >3</button>
+                <button class="orangeBtn" onclick="readButton('plus')" >+</button>
+            </div>
+            <div class="fifthRow">
+                <button class="splBtn" onclick="readButton('0')" >0</button>
+                <button class="blackBtn" onclick="readButton('.')">.</button>
+                <button class="orangeBtn" onclick="readButton('equals')" >=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
