@@ -1,0 +1,43 @@
+.text{
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+    color: purple;
+}
+body{
+    background: gray;
+}
+.main
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0.3em solid purple ;
+    background: gold;
+}
+.box
+{
+    width: 200px;
+}
+.container
+{
+    width:50%;
+}
+@media only screen and(max-width:700px){
+
+    .main{
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        border: 0.3em solid purple ;
+        background: gold;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 50%;
+    }
+    }

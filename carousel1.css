@@ -1,0 +1,66 @@
+body{
+    justify-content: center;
+    height: 100%;
+}
+.main{
+    background-color:lightcyan;   
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-items: center;
+    align-items: center;
+}
+
+.image{
+    margin-top: 10em;
+    max-width: 80vw;
+    max-height: 90vh;
+}
+
+
+.Imagecontainer{
+    height: 50%;
+    width:60%;
+    display: flex; 
+    justify-content: center;
+}
+
+.Img{
+    display: none;
+}
+
+.active{
+    align-self : center;
+    display: block;
+}
+
+.Prev
+{   margin-top: 10em;
+    margin-left: 5%;
+    height : 2em;
+}
+
+.Next
+{   margin-top: 10em;
+    margin-right: 2%;
+    height : 2em;
+}
+.size1{
+    height:5vh;
+    width: 5vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 3em;
+}
+
+.size
+{
+    height: 2.5vh;
+    width:2.5vw;
+    
+}
+
+
+.active1{
+    border-radius: 1em;
+    border: 1em blue;
+}

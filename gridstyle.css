@@ -1,0 +1,48 @@
+.row1{
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    justify-content: space-around;
+    background: lightgray;
+}
+.box1{
+    color: yellow;
+    background:black;
+    margin: 0.7em;
+    padding: 3em;
+}
+.box2{
+    color: yellow;
+    background:black;
+    margin: 0.7em;
+    padding: 3em;
+}
+.box3{
+    color: yellow;
+    background:black;
+    margin: 0.7em;
+    padding: 3em;
+}
+.row2{
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    background: lightgray;
+}
+.box4{
+    color: yellow;
+    background:black;
+    margin: 0.7em;
+    padding: 3em;
+}
+.box5{
+    color: yellow;
+    background:black;
+    margin: 0.7em;
+    padding: 3em;
+}
+.heading{
+    justify-content: center;
+}
+
+

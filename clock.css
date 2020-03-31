@@ -1,0 +1,16 @@
+.format{
+    background: blueviolet;
+    text-align: center; 
+    padding: 20%;   
+    font-size: xx-large;
+    font-weight: bold;
+    color: gold;
+
+}
+.heading{
+    text-align: center;
+    color: red;
+}
+body{
+    background: black;
+}

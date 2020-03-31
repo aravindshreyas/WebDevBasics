@@ -1,0 +1,65 @@
+body{
+    background: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.middle{
+    padding: 5em;
+    background: gold;
+}
+.heading{
+    text-align: center;
+    color: gold;
+}
+.rock, .paper,.sci{
+    margin: 3em;
+    border-radius: 50%;
+    border: 2px solid purple;
+    }
+.text,.resultuser,.resultcomp{
+    font-size: xx-large;
+    color: gold;
+    text-shadow: white;
+
+}
+.upper{
+    text-align: center;
+    height: 50vh;
+    width: 100vw;
+}
+.format{
+    margin-bottom: 5em;
+}
+.rock:hover, .paper:hover,.sci:hover{
+    margin: 3em;
+    border-radius: 50%;
+    border: 4px solid purple;
+    }
+.text1{
+    color: gold;
+    font-size: xx-large;
+    margin-bottom: 2em;
+    font-weight: bold;
+
+}
+@media only screen and (max-width: 700px)
+{
+    .rock, .paper,.sci{
+        margin: 3em;
+        border-radius: 50%;
+        border: 2px solid purple;
+        flex-wrap: wrap;
+        
+        }
+        .middle{
+            padding: 2em;
+            background: gold;
+        }
+
+
+}

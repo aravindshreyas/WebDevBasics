@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="carousel1.css">
+</head>
+<body>
+    <h1 class="Head">SUPERCARS</h1>
+    <div class="main">
+    <div>
+        <img src="left.jpg" onclick="slideLeft()" alt="left" class="Prev arrow">
+    </div>
+    <div class="Container">
+        <div class="Imagecontainer">                  
+            <div class="Img 1 active" >
+                <img src="pic1.jpg" alt="1" class="image">
+            </div>
+            <div class="Img 2">
+                <img src="pic2.jpg" alt="2" class="image">
+            </div>      
+        </div>     
+        <div class="size1">
+          <img src="dot.jpg" alt="dot" class="size active1" onclick="changeSlide(0)">
+          <img src="dot.jpg" alt="dot" class="size" onclick="changeSlide(1)">
+        </div>   
+    </div>
+    <div>
+        <img src="right.jpg" onclick="slideRight()" alt="right" class="Next arrow">
+    </div>
+    <script src="carousel2.js"></script>
+    </div>
+    
+</body>
+</html>

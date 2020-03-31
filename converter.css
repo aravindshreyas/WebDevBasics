@@ -1,0 +1,28 @@
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: brown;
+}
+.container{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.heading{
+    font-weight: bolder;
+}
+body{
+    background: blanchedalmond;
+}
+#basebox{
+    width: 350px;
+}
+#numberinput{
+    width: 350px;
+}
+.btn{
+    padding: 2em;
+    background: burlywood;
+
+}
