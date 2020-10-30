@@ -1,1 +1,1 @@
-# iPhoneCalculator
+This repository contains everything I've learnt in HTML, CSS, and JS. The folder 'index.html' provides functionality of row duplication using jQuery. The rest of them are in order. From basic flexbox to designing games like rock paper scissors and iPhone calculators, it's all here!
